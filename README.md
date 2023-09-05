@@ -24,8 +24,7 @@ The data used is was from ...
 
 ## Exporting Data
 
-`code`
-SELECT SUM(new_cases) as total_cases, SUM(cast(new_deaths as int)) as total_deaths, SUM(cast(new_deaths as int))/SUM(New_Cases)*100 as DeathPercentage
+`SELECT SUM(new_cases) as total_cases, SUM(cast(new_deaths as int)) as total_deaths, SUM(cast(new_deaths as int))/SUM(New_Cases)*100 as DeathPercentage
 FROM `fine-loader-397409.CovidDeaths.CovidDeaths`
 WHERE continent is not null 
 --GROUP BY date
