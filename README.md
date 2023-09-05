@@ -9,7 +9,7 @@ The purpose of this project was to explore several large datasets with an intere
 Excel was used to get an initial overview of the data and to perform some minor data cleaning.
 
 #### SQL
-SQL was used to explore and analyse the dataset in depth.
+SQL was used to analyse the data in depth and extract the data necessary for visualization.
 
 #### Tableau
 Tableau was used to visualise the dataset.
@@ -17,3 +17,5 @@ Tableau was used to visualise the dataset.
 ## Data
 
 The data used is was from ...
+
+## Cleaning the Data
