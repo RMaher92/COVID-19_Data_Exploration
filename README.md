@@ -1,7 +1,7 @@
 # COVID-19 Data Exploration project
 
-The purpose of this project was to explore COVID-19 data.
-
+## Overview
+The purpose of this project was to explore COVID-19 infection rates and vaccination rates between 2020 and 2021
 ## Tools Used
 
 #### Excel
