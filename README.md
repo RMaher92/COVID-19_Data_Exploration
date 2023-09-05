@@ -1,7 +1,7 @@
 # COVID-19 Data Exploration project
 
 ## Overview
-The purpose of this project was to explore COVID-19 infection rates and vaccination rates.
+The purpose of this project was to explore several large datasets with an interesting background and that is why I chose to investigate some of the early COVID-19 infection rates and vaccination data throughout the world.
 
 ## Tools
 
