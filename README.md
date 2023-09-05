@@ -19,3 +19,9 @@ Tableau was used to visualise the dataset.
 The data used is was from ...
 
 ## Cleaning the Data
+
+## Exploring the Data
+
+## Exporting Data
+
+## Visualising the Data
