@@ -20,6 +20,16 @@ The data used is was from ...
 
 ## Cleaning the Data
 
+To begin the dataset was loaded into excel to get an initial overview and decide the best course of action for analysing.
+Due to the large size of the dataset SQL would be the best option to analyse the data.
+
+Before moving into SQL, the data needed to be cleaned with the following steps:
+1. Delete duplicates using the 'Remove Duplicates' option in Excel.
+2. Move 'Population' column for easier use of the 'Order By' function in SQL.
+3. Delete irrelevant columns to my analysis.
+
+Once complete, the data was exported and uploaded to BigQuery.
+
 ## Exploring the Data
 
 ```
