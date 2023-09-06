@@ -167,35 +167,9 @@ WHERE dea.continent IS NOT NULL;
 SELECT *, (AccumVaccinations/population)*100
 FROM PercentPopulationVaccinated;
 
--- Relavant data for visulisation
-
-Select SUM(new_cases) as total_cases, SUM(cast(new_deaths as int)) as total_deaths, SUM(cast(new_deaths as int))/SUM(New_Cases)*100 as DeathPercentage
-From `fine-loader-397409.CovidDeaths.CovidDeaths`
-where continent is not null 
---Group By date
-order by 1,2
-
-Select location, SUM(cast(new_deaths as int)) as TotalDeathCount
-From `fine-loader-397409.CovidDeaths.CovidDeaths`
-Where continent is null 
-and location not in ('World', 'European Union', 'International')
-Group by location
-order by TotalDeathCount desc
-
-Select Location, Population, MAX(total_cases) as HighestInfectionCount,  Max((total_cases/population))*100 as PercentPopulationInfected
-From `fine-loader-397409.CovidDeaths.CovidDeaths`
-Group by Location, Population
-order by PercentPopulationInfected desc
-
-Select Location, Population,date, MAX(total_cases) as HighestInfectionCount,  Max((total_cases/population))*100 as PercentPopulationInfected
-From `fine-loader-397409.CovidDeaths.CovidDeaths`
-Group by Location, Population, date
-order by PercentPopulationInfected desc
-```
-
 ## Exporting Data
-
-```SELECT SUM(new_cases) as total_cases, SUM(cast(new_deaths as int)) as total_deaths, SUM(cast(new_deaths as int))/SUM(New_Cases)*100 as DeathPercentage
+```
+SELECT SUM(new_cases) as total_cases, SUM(cast(new_deaths as int)) as total_deaths, SUM(cast(new_deaths as int))/SUM(New_Cases)*100 as DeathPercentage
 FROM `fine-loader-397409.CovidDeaths.CovidDeaths`
 WHERE continent is not null 
 --GROUP BY date
