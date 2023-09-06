@@ -166,8 +166,10 @@ WHERE dea.continent IS NOT NULL;
 
 SELECT *, (AccumVaccinations/population)*100
 FROM PercentPopulationVaccinated;
+```
 
 ## Exporting Data
+
 ```
 SELECT SUM(new_cases) as total_cases, SUM(cast(new_deaths as int)) as total_deaths, SUM(cast(new_deaths as int))/SUM(New_Cases)*100 as DeathPercentage
 FROM `fine-loader-397409.CovidDeaths.CovidDeaths`
