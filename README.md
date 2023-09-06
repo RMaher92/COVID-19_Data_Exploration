@@ -20,7 +20,7 @@ The data used is was from ...
 
 ## Cleaning the Data
 
-To begin the dataset was loaded into excel to get an initial overview and decide the best course of action for analysing.
+To begin the the two dataset was loaded into excel to get an initial overview and decide the best course of action for analysing.
 Due to the large size of the dataset SQL would be the best option to analyse the data.
 
 Before moving into SQL, the data needed to be cleaned with the following steps:
